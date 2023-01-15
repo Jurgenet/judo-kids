@@ -1,7 +1,7 @@
 {
-  "name": "nuxt3-dockerized-broiler",
-  "version": "0.1.0",
-  "description": "nuxt 3 dokerized boilerplate",
+  "name": "judo-kids",
+  "version": "0.1.1",
+  "description": "judo kids portal",
   "author": "y.ivanchenko <jurgenet@gmail.com>",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "docker-dev-up": "docker-compose -f docker-compose.yml -f docker-compose.dev.yml up --build",
-    "docker-prod-up": "docker-compose up --build"
+    "docker-prod-up": "docker-compose -f docker-compose.yml up --build"
   },
   "devDependencies": {
     "nuxt": "3.0.0",

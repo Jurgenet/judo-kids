@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  nuxt:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    command: yarn dev
+    volumes:
+    - ./assets:/app/assets/
+    - ./pages:/app/pages/
+    - ./components:/app/components/
+    ports:
+      - '3000:3000'
