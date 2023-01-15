@@ -1,0 +1,11 @@
+node_modules
+dist
+*.log*
+.nuxt
+nuxt.d.ts
+.nitro
+.cache
+.output
+.env
+docker-compose.yml
+docker-compose.dev.yml
