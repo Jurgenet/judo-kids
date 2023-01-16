@@ -1,57 +1,48 @@
 <template>
 
-<div class="appHeader">
-  <BoundBar />
-  <div class="main">
-    <img class="picture picture-1" alt="judo kids" src="~/assets/images/judo-kids-1.png" />
-    <img class="picture picture-2" alt="judo kids" src="~/assets/images/judo-kids-2.png" />
-    <div class="title">JUDO</div>
-    <img class="judoSignPicture" alt="judo sign" src="~/assets/images/judo-sign.png" />
-    <div class="title">KIDS</div>
-    <img class="picture picture-3" alt="judo-kids" src="~/assets/images/judo-kids-3.png" />
-    <img class="picture picture-4" alt="judo-kids" src="~/assets/images/judo-kids-4.png" />
+<div class="appHeader pt-3 flex flex-column justify-content-center align-items-center">
+
+  <div class="mainTopic flex align-items-center">
+    <img class="judoKidPic" alt="judo kids" src="~/assets/images/judo-kids-1.png" />
+    <img class="judoKidPic" alt="judo kids" src="~/assets/images/judo-kids-2.png" />
+    <div class="mx-4 text-5xl font-bold">JUDO</div>
+    <img class="h-3rem" alt="judo sign" src="~/assets/images/judo-sign.png" />
+    <div class="mx-4 text-5xl font-bold">KIDS</div>
+    <img class="judoKidPic" alt="judo-kids" src="~/assets/images/judo-kids-3.png" />
+    <img class="judoKidPic" alt="judo-kids" src="~/assets/images/judo-kids-4.png" />
   </div>
-  <BoundBar />
-  <div>Russia, Kursk.</div>
+
+  <Divider class="mt-0" align="center">
+    <div class="inline-flex align-items-center">
+      <img class="gerbPic" alt="gerb of russia" src="~/assets/images/ru-gerb.png" />
+      <img class="gerbPic" alt="gerb of kursk" src="~/assets/images/gerb-kursk.png" />
+    </div>
+  </Divider>
+
 </div>
 
 </template>
 
 <script setup lang="ts">
 
-import BoundBar from './BoundBar.vue'
+import Divider from 'primevue/divider'
 
 </script>
 
 <style lang="sass" scoped>
 
 .appHeader
-  display: flex
+  font-family: var(--decor-font)
 
-  justify-content: center
-  align-items: center
-  flex-direction: column
+.mainTopic
+  margin-right: -22px
 
-  font-family: 'Suez One', serif
-
-.main
-  display: flex
-
-  align-items: center
-.title
-  margin: 4px 20px
-  font-size: 2.5rem
-  font-weight: bold
-
-.judoSignPicture
-  margin: 0 12px 0
-  height: 50px
-
-.pictures
-  margin-top: 12px
-
-.picture
+.judoKidPic
   margin: 0 10px 0
-  height: 60px
+  height: 62px
+
+.gerbPic
+  padding: 4px
+  height: 45px
 
 </style>
