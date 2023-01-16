@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Детская секция дзюдо',
+      title: 'Курская детская секция дзюдо',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,7 +22,7 @@ export default defineNuxtConfig({
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'россия, курск, детское, дзюдо, секция, russia, kursk, judo, kids, club',
+          content: 'россия, курск, детское, дзюдо, борьба, грепплинг, секция, школа, russia, kursk, judo, wrestling, grappling, kids, club, school',
         },
       ],
       link: [
