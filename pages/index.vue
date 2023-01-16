@@ -17,8 +17,6 @@
 
 <script setup lang="ts">
 
-import { ref } from 'vue'
-
 import AppHeader from '~~/components/AppHeader/index.vue'
 import AppFooter from '~~/components/AppFooter/index.vue'
 import RecruitmentAnnouncement from '~~/components/RecruitmentAnnouncement/index.vue'

@@ -136,6 +136,8 @@
     text-align: center
 
   .judoText
+    margin-top: 12px
+
     text-align: center
     font-size: 3rem
     font-weight: bold
@@ -143,7 +145,8 @@
 
 
 .peculiarities
-  margin-top: 16px
+  margin: 20px 0
+
   font-size: 1.2rem
 
 .schedule

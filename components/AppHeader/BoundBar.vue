@@ -13,7 +13,7 @@
 
 .boundBar
   display: flex
-  margin: 12px 0
+  margin: 4px 0
 
   justify-content: center
   align-items: center
@@ -21,7 +21,7 @@
 .line
   border-bottom: 2px solid black
   height: 2px
-  width: 260px
+  width: 300px
 
 .round
   margin: 0 8px
