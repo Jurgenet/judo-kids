@@ -24,6 +24,11 @@ export default defineNuxtConfig({
           name: 'keywords',
           content: 'россия, курск, детское, дзюдо, борьба, грепплинг, секция, школа, russia, kursk, judo, wrestling, grappling, kids, club, school',
         },
+        {
+          hid: 'google-site-verification',
+          name: 'google-site-verification',
+          content: 'z0cdBK_IpmzJyEYSqZFKxY6D2dI96XLaQWXjzpy35f0',
+        },
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
