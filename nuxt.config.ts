@@ -29,6 +29,11 @@ export default defineNuxtConfig({
           name: 'google-site-verification',
           content: 'z0cdBK_IpmzJyEYSqZFKxY6D2dI96XLaQWXjzpy35f0',
         },
+        {
+          hid: 'yandex-verification',
+          name: 'yandex-verification',
+          content: 'ad82df5b80505e48',
+        },
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
